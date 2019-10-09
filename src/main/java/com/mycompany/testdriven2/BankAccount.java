@@ -16,7 +16,7 @@ public class BankAccount {
     public void withdraw(int i) {
         balance-=i;
         if(balance<0)
-            balance-=8;
+            balance-=9;
     }
 
     void transfer(BankAccount accountTo, int i) {
